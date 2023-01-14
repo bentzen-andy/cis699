@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Container, Card, Button } from "react-bootstrap";
-import { formatDate } from "../hooks/useDate";
-import styles from "./WeekSummary.module.css";
-import Breadcrumbs from "../components/Breadcrumbs";
+import styles from "../WeekSummary.module.css";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
-const WeekSummary = ({ weekNumber }) => {
+const Week1 = () => {
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
@@ -64,4 +63,4 @@ const WeekSummary = ({ weekNumber }) => {
   );
 };
 
-export default WeekSummary;
+export default Week1;
