@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Container, Card, Button } from "react-bootstrap";
 import { formatDate } from "../hooks/useDate";
-import styles from "./Prayers.module.css";
-import ModalConfirmDelete from "../components/ModalConfirmDelete";
+import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
-import ToastNotification from "../components/ToastNotification";
 
 const WeekSummary = ({ weekNumber }) => {
   return (
