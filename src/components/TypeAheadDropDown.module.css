@@ -1,0 +1,27 @@
+.type-ahead-drop-down ul::before {
+  content: "";
+}
+
+.type-ahead-drop-down ul {
+  position: absolute;
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #888;
+}
+
+.type-ahead-drop-down li {
+  padding: 10px 5px;
+  cursor: pointer;
+  background-color: #fff;
+  width: 10rem;
+}
+
+.type-ahead-drop-down li:hover {
+  background: #ddd;
+}
+
+li.selected {
+  background: #ddd;
+}

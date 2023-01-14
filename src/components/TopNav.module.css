@@ -1,0 +1,95 @@
+.top-nav {
+  height: 4rem;
+  background-color: #7c3078;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.links {
+  justify-content: right;
+}
+
+.link {
+  text-decoration: none;
+  color: #cae0c7;
+}
+
+.username {
+  color: #fff;
+  font-weight: bold;
+}
+
+.cell-phone-button {
+  background-color: #bbb !important;
+  border-color: #bbb !important;
+}
+
+.cell-phone-button:active,
+.cell-phone-button:hover,
+.cell-phone-button:focus {
+  background-color: #bbb !important;
+  border-color: #bbb !important;
+}
+
+.dropdown {
+  background-color: #222 !important;
+}
+
+.link-icon {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.cell-phone-button__link {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  width: 90vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.cell-phone-button__link-text {
+  color: #fff;
+}
+
+.cell-phone-button__link-text:active,
+.cell-phone-button__link-text:hover {
+  color: #cae0c7;
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+  .cell-phone-button {
+    display: inline-block;
+  }
+  .username {
+    display: none !important;
+  }
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  .cell-phone-button {
+    display: none !important;
+  }
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cell-phone-button {
+    display: none !important;
+  }
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .cell-phone-button {
+    display: none !important;
+  }
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1200px) {
+  .cell-phone-button {
+    display: none !important;
+  }
+}
