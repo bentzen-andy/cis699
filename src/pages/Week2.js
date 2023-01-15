@@ -1,21 +1,33 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Container, Card, Button } from "react-bootstrap";
-import styles from "../WeekSummary.module.css";
-import Breadcrumbs from "../../components/Breadcrumbs";
+import styles from "./WeekSummary.module.css";
+import Breadcrumbs from "../components/Breadcrumbs";
 
-const Week1 = () => {
+const Week2 = () => {
+  return <div>TODO</div>;
+
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
         <Breadcrumbs
           links={[
             { link: "/", label: "Home" },
-            { link: null, label: "Week 1" },
+            { link: null, label: "Week 2" },
           ]}
         />
       </Container>
       <Container className={styles["container"]}>
+        <Card className={styles["card"]}>
+          <Card.Title>Getting Started with Unity.</Card.Title>
+          <Card.Body>
+            <div>
+              <strong>Chapter 1 - Reading Response</strong>
+            </div>
+            <div>TODO...</div>
+          </Card.Body>
+        </Card>
+
         <Card className={styles["card"]}>
           <Card.Title>Hello, Unity</Card.Title>
           <Card.Body>
@@ -38,29 +50,9 @@ const Week1 = () => {
             same way.
           </Card.Body>
         </Card>
-        <Card className={styles["card"]}>
-          <Card.Title>
-            Interactive Computer Graphics, 7th ed. Edward Angel.
-          </Card.Title>
-          <Card.Body>
-            <div>
-              <strong>Chapter 1 - Reading Response</strong>
-            </div>
-            <div>
-              This chapter is a intro to the basics of computer graphics.
-            </div>
-          </Card.Body>
-
-          <Card.Body>
-            <div>
-              <strong>Chapter 2 - Reading Response</strong>
-            </div>
-            <div>TODO...</div>
-          </Card.Body>
-        </Card>
       </Container>
     </>
   );
 };
 
-export default Week1;
+export default Week2;

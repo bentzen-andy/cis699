@@ -8,4 +8,17 @@
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.code {
+  padding: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #7c3078 !important;
+  font-weight: bold !important;
+  background-color: #eee !important;
+}
+
+pre {
+  margin-bottom: 0 !important;
 }
