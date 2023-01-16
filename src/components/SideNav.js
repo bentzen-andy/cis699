@@ -28,11 +28,11 @@ const SideNav = () => {
             <div className={styles["link-text"]}>Week 2</div>
           </span>
         </Link>
-        {/* <Link className={styles["link"]} to="/week-3">
+        <Link className={styles["link"]} to="/week-3">
           <span>
             <div className={styles["link-text"]}>Week 3</div>
           </span>
-        </Link> */}
+        </Link>
       </div>
     </Nav>
   );

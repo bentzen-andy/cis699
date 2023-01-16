@@ -25,9 +25,9 @@ const Home = () => {
             <Card.Text>
               <Link to="/week-2">Week 2 </Link>
             </Card.Text>
-            {/* <Card.Text>
+            <Card.Text>
               <Link to="/week-3">Week 3 </Link>
-            </Card.Text> */}
+            </Card.Text>
           </Card.Body>
         </Card>
       </Container>

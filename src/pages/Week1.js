@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Container, Card, Button } from "react-bootstrap";
+import React from "react";
+import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
 
@@ -17,12 +16,12 @@ const Week1 = () => {
       </Container>
       <Container className={styles["container"]}>
         <Card className={styles["card"]}>
-          <Card.Title>
-            Interactive Computer Graphics, 7th ed. Edward Angel.
-          </Card.Title>
+          <Card.Title>Reading Response</Card.Title>
           <Card.Body>
             <div>
-              <strong>Chapter 1 - Reading Response</strong>
+              <strong>
+                Chapter 1 - Interactive Computer Graphics, 7th ed. Edward Angel.
+              </strong>
             </div>
             <div>
               This chapter is a intro to the basics of computer graphics. The
@@ -59,7 +58,7 @@ const Week1 = () => {
 
           <Card.Body>
             <div>
-              <strong>Chapter 2 - Reading Response</strong>
+              <strong>Chapter 2</strong>
             </div>
             <div>This chapter got me up and running with the WebGL API. </div>
             <br />
@@ -88,9 +87,12 @@ const Week1 = () => {
               shapes (i.e., arcs and circles.). You can take a look at my
               example drawings below.
             </div>
+          </Card.Body>
+        </Card>
 
-            <br />
-
+        <Card className={styles["card"]}>
+          <Card.Title>Deliverables</Card.Title>
+          <Card.Body>
             <div>
               <strong>Example Drawings</strong>
             </div>
