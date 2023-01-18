@@ -9,7 +9,7 @@ const Breadcrumbs = ({ links }) => {
       {links
         .map((link, i) => (
           <div key={i + 1}>
-            <Link to={link.link} style={{ color: "#3d62b4" }}>
+            <Link to={link.link} style={{ color: "#7c3078" }}>
               {link.label}
             </Link>
             <span className={styles["divider"]}>/</span>

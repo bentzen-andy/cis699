@@ -4,11 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
+let CURRENT_WEEK = 3;
+
 const Home = () => {
-  const navigate = useNavigate();
-
-  // User must be signed in to view this page. If not redirect to the login page.
-
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
@@ -19,15 +17,31 @@ const Home = () => {
         <Card className={styles["card"]}>
           <Card.Body>
             <Card.Title>Computer Graphics Portfolio</Card.Title>
-            <Card.Text>
-              <Link to="/week-1">Week 1 </Link>
-            </Card.Text>
-            <Card.Text>
-              <Link to="/week-2">Week 2 </Link>
-            </Card.Text>
-            <Card.Text>
-              <Link to="/week-3">Week 3 </Link>
-            </Card.Text>
+            <Link to="/schedule">Schedule</Link>
+
+            {new Array(16).fill("").map((item, i) => {
+              if (i + 1 <= CURRENT_WEEK) {
+                return (
+                  <Link className={styles["link"]} to={`/week-${i + 1}`}>
+                    <span>
+                      <div className={styles["link-text"]}>{`Week ${
+                        i + 1
+                      }`}</div>
+                    </span>
+                  </Link>
+                );
+              } else {
+                return (
+                  <div className={styles["text"]}>
+                    <span>
+                      <div className={styles["link-text"]}>{`Week ${
+                        i + 1
+                      }`}</div>
+                    </span>
+                  </div>
+                );
+              }
+            })}
           </Card.Body>
         </Card>
       </Container>

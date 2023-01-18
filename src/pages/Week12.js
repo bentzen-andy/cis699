@@ -3,14 +3,14 @@ import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
 
-const Week3 = () => {
+const Week4 = () => {
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
         <Breadcrumbs
           links={[
             { link: "/", label: "Home" },
-            { link: null, label: "Week 3" },
+            { link: null, label: "Week 12" },
           ]}
         />
       </Container>
@@ -18,13 +18,17 @@ const Week3 = () => {
         <Card className={styles["card"]}>
           <Card.Title>Reading Response</Card.Title>
           <Card.Body>
-            <div>On vacation... be back next week.</div>
-
-            <img
-              width="100%"
-              alt="cruise ship"
-              src="https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1680/840/75/vision-dam/digital/parks-platform/parks-global-assets/disney-cruise-line/ships/wish/DCL_WISH-SIGNATURE-4_JRoh-D-5x2.jpg?2022-03-23T05:13:10+00:00"
-            />
+            <strong>Title</strong>
+            <div>TODO...</div>
+            <br />
+          </Card.Body>
+        </Card>
+        <Card className={styles["card"]}>
+          <Card.Title>Deliverables</Card.Title>
+          <Card.Body>
+            <strong>Title</strong>
+            <div>TODO...</div>
+            <br />
           </Card.Body>
         </Card>
       </Container>
@@ -32,4 +36,4 @@ const Week3 = () => {
   );
 };
 
-export default Week3;
+export default Week4;
