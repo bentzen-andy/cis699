@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Card, Container } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
-let CURRENT_WEEK = 3;
+let CURRENT_WEEK = 4;
 
 const Home = () => {
   return (

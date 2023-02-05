@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import { useNavigate, Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_WEEK = 3;
+let CURRENT_WEEK = 4;
 
 const SideNav = () => {
   return (
