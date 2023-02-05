@@ -38,11 +38,23 @@ const Week4 = () => {
               <strong>
                 Galaga Clone -{" "}
                 <a
-                  href="https://unity-projects-atb.netlify.app/GalagaClone2/"
+                  href="https://unity-projects-atb.netlify.app/GalagaClone2"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  https://unity-projects-atb.netlify.app/GalagaClone2/
+                  https://unity-projects-atb.netlify.app/GalagaClone2
+                </a>
+              </strong>
+            </div>
+            <div>
+              <strong>
+                GitHub -{" "}
+                <a
+                  href="https://github.com/bentzen-andy/GalagaClone/tree/main/Assets/Scripts"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://github.com/bentzen-andy/GalagaClone/tree/main/Assets/Scripts
                 </a>
               </strong>
             </div>
@@ -115,20 +127,26 @@ const Week4 = () => {
               viewport.). I'd also like to add some more of the no-brainer
               elements that any complete game should have. For instance:
               <ul>
-                <li>scoreboard</li>
-                <li>main menu</li>
-                <li>ability to pause the game</li>
-                <li>some message for when all enemies have been killed</li>
+                <li>Scoreboard</li>
+                <li>Main menu</li>
+                <li>Ability to pause the game</li>
+                <li>Some message for when all enemies have been killed</li>
                 <li>
-                  some response from the game when the player has been killed
+                  Some response from the game when the player has been killed
                   (e.g., give the option to restart)
                 </li>
-                <li>bonuses/power-ups</li>
-                <li>additional waves of enemies</li>
+                <li>Bonuses/power-ups</li>
+                <li>Additional waves of enemies</li>
                 <li>
-                  maybe an overworld screen that allows the player to pick
+                  Maybe an overworld screen that allows the player to pick
                   different planets to visit (i.e., the player should be able to
                   advance to different levels in the game)
+                </li>
+                <li>
+                  Refactor some of the code. I followed along with the tutorial,
+                  but unfortunately there's some duplication and general
+                  ugliness in the code. I'd like to create sone parent classes
+                  and clean this up a bit.
                 </li>
               </ul>
             </div>
