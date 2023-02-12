@@ -3,7 +3,7 @@ import { Container, Card } from "react-bootstrap";
 import styles from "./WeekSummary.module.css";
 import Breadcrumbs from "../components/Breadcrumbs";
 
-const Week4 = () => {
+const Week10 = () => {
   return (
     <>
       <Container style={{ marginTop: "1rem" }}>
@@ -36,4 +36,4 @@ const Week4 = () => {
   );
 };
 
-export default Week4;
+export default Week10;
