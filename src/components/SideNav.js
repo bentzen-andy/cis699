@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_WEEK = 5;
+let CURRENT_WEEK = 6;
 
 const SideNav = () => {
   return (
