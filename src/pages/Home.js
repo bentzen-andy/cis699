@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Breadcrumbs from "../components/Breadcrumbs";
 import styles from "./Home.module.css";
 
-let CURRENT_WEEK = 6;
+let CURRENT_WEEK = 7;
 
 const Home = () => {
   return (
