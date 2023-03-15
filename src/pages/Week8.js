@@ -16,18 +16,8 @@ const Week8 = () => {
       </Container>
       <Container className={styles["container"]}>
         <Card className={styles["card"]}>
-          <Card.Title>Reading Response</Card.Title>
           <Card.Body>
-            <strong>Title</strong>
-            <div>TODO...</div>
-            <br />
-          </Card.Body>
-        </Card>
-        <Card className={styles["card"]}>
-          <Card.Title>Deliverables</Card.Title>
-          <Card.Body>
-            <strong>Title</strong>
-            <div>TODO...</div>
+            <strong>Out sick... 🤕</strong>
             <br />
           </Card.Body>
         </Card>
