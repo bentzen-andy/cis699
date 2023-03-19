@@ -37,6 +37,18 @@ const Week10 = () => {
                 </a>
               </strong>
             </div>
+
+            <div>
+              <strong>
+                <a
+                  href="https://github.com/bentzen-andy/HazardPay"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  FPS Game - Hazard Pay - GitHub
+                </a>
+              </strong>
+            </div>
             <br />
             <strong>Hazard Pay</strong>
             <div>
