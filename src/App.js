@@ -20,7 +20,6 @@ import Week12 from "./pages/Week12";
 import Week13 from "./pages/Week13";
 import Week14 from "./pages/Week14";
 import Week15 from "./pages/Week15";
-import Week16 from "./pages/Week16";
 
 const App = () => {
   return (
@@ -44,7 +43,6 @@ const App = () => {
         <Route path="week-13/*" element={<Week13 />} />
         <Route path="week-14/*" element={<Week14 />} />
         <Route path="week-15/*" element={<Week15 />} />
-        <Route path="week-16/*" element={<Week16 />} />
 
         <Route path="*" element={<NotFound />} />
       </Route>

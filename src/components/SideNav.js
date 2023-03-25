@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 import styles from "./SideNav.module.css";
 
-let CURRENT_WEEK = 10;
+let CURRENT_WEEK = 11;
 
 const SideNav = () => {
   return (
@@ -23,7 +23,7 @@ const SideNav = () => {
             <div className={styles["link-text"]}>Schedule</div>
           </span>
         </Link>
-        {new Array(16).fill("").map((item, i) => {
+        {new Array(15).fill("").map((item, i) => {
           if (i + 1 <= CURRENT_WEEK) {
             return (
               <Link className={styles["link"]} to={`/week-${i + 1}`}>
